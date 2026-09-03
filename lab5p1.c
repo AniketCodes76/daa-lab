@@ -43,6 +43,7 @@ void heapSort(struct ITEM a[], int n)
     for (i = 0; i < n / 2; i++)
         swap(&a[i], &a[n - i - 1]);
 }
+
 int main()
 {
     struct ITEM item[100];
@@ -90,4 +91,5 @@ int main()
     }
     printf("Maximum profit: %.6f\n", profit);
     return 0;
+    
 }
